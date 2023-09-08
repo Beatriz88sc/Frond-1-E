@@ -427,9 +427,7 @@ footer li a{
 }
 
 @media screen and (max-width: 480px) {
-    *{
-    margin: 0;
-   }
+    
     .container-header {
         height: 140px;
         justify-content: space-between;
@@ -467,19 +465,19 @@ footer li a{
         margin-bottom: 0;
     }
 
-    .container-numbered {
+    .container-number {
         background-color: #FFFFFF;
         padding: 3rem 0rem 3rem 1.5rem;
     }
     
-    .container-numbered article div {
+    .container-number article div {
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         background-color: #8B48BF4D;
         margin-bottom: 1.5rem;
     }
 
-    .container-numbered article p {
+    .container-number article p {
         /* font-weight: 500;
         line-height: 25.52px; */
         margin: 0 1rem;
